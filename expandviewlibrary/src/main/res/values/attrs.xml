@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandView">
+        <attr name="anim_orientation" />
+        <attr name="anim_duration" format="integer"/>
+        <attr name="centerX" format="dimension"/>
+        <attr name="centerY" format="dimension"/>
+    </declare-styleable>
+    <attr name="anim_orientation">
+        <enum name="upleft" value="1" />
+        <enum name="upright" value="2" />
+        <enum name="leftbottom" value="3" />
+        <enum name="rightbottom" value="4" />
+        <enum name="center" value="5" />
+    </attr>
+</resources>
