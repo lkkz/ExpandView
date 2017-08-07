@@ -7,6 +7,7 @@
 ![Image text](img/expandview2.gif)
 
 第二张gif图片说明，其中这个搜索布局是我借用的别人的，本人比较懒，直接拿来用了
+
 布局出处：[http://www.jianshu.com/p/e0a6fc621945](http://www.jianshu.com/p/e0a6fc621945)
 
 ### 如果你是AndroidStudio用户,在build.gradle中添加
@@ -33,6 +34,8 @@ anim_orientation属性说明：
 | leftbottom        |动画从左下方开始扩散     |
 | rightbottom        | 动画从右下方开始扩散      |
 | center        | 动画从中心开始扩散      |
+
+布局中
     
 ```
   <com.cool.expandviewlibrary.ExpandView
@@ -63,3 +66,7 @@ mImgExpandView.doPackupAnim();//收缩动画
 ### 1.3 使用说明：
 * ExpandView只能有一个`子view`
 * 如果需要作展开动画，请将ExpandView设置为invisible,设置为gone是没有效果的
+
+简书博客地址：[http://www.jianshu.com/p/b5c1d35849ed](http://www.jianshu.com/p/b5c1d35849ed)
+
+csdn博客地址 [http://blog.csdn.net/cool_fuwei/article/details/76832680](http://blog.csdn.net/cool_fuwei/article/details/76832680)
